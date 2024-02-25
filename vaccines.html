@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #00008B;
+  text-align: center;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #B0C4DE;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #B22222;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+<center><img src="vaccine.jpg"></center>
+</style>
+</head>
+<body>
+
+<center><img src="Pictures/VACCINES.png"><center>
+<br>
+<br>
+<center>
+<div class="tab">
+
+
+  <button class="tablinks" onclick="openCity(event, 'PFIZER')"><b><font color="#FAF0E6" face="Tahoma">PFIZER</font></b></button>
+  <button class="tablinks" onclick="openCity(event, 'MODERNA')"><b><font color="#FAF0E6" face="Tahoma">MODERNA</font></b></button>
+  <button class="tablinks" onclick="openCity(event, 'SINOVAC')"><b><font color="#FAF0E6" face="Tahoma">SINOVAC</font></b></button>
+  <button class="tablinks" onclick="openCity(event, 'ASTRAZENECA')"><b><font color="#FAF0E6" face="Tahoma">ASTRAZENECA</font></b></button>
+  <button class="tablinks" onclick="openCity(event, 'JANSSEN')"><b><font color="#FAF0E6" face="Tahoma">JANSSEN</font></b></button>
+  
+</div>
+ 
+<div id="PFIZER" class="tabcontent">
+  <h1>PFIZER</h1>
+  <h3 align="left">
+  <ul>
+  <li>Safety<br>
+The Pfizer-BioNTech vaccine has been listed for emergency use by the WHO and is safe and effective based on data from large-scale clinical trials.
+  </li>
+  <br>
+  <li>Effectiveness<br>
+ Based on data provided by the manufacturer, the Pfizer-BioNTech vaccine, or BNT162b2, has been shown to be 95% effective in an ongoing large-scale clinical trial.
+
+A widely used COVID-19 vaccine that's at least 50% effective could help control the pandemic.
+  </li>
+  <br>
+  <li>Side Effects<br>
+  Very common:
+Headache,
+Joint aches,
+Muscle aches,
+Pain at the injection site,
+Tiredness,
+Chills,
+Fever,
+Swelling at the injection site,
+Other less common side effects are also possible.
+
+Side effects can be more common after the second dose.
+  </li>
+  </ul></h3>
+<center><img src="PFIZER.jpg"><center>
+</div>
+
+<div id="MODERNA" class="tabcontent">
+<h1>MODERNA</h1>
+  <h3 align="left">
+  <ul>
+  <li>Safety<br>
+The Moderna vaccine has been listed for emergency use by the WHO and is safe and effective based on data from large-scale clinical trials.
+  </li>
+  <br>
+  <li>Effectiveness<br>
+Based on data provided by the manufacturer, the Moderna vaccine, or mRNA-1273, has shown to be 94.1% effective in an ongoing, large-scale clinical trial.
+
+A widely used COVID-19 vaccine that's at least 50% effective could help control the pandemic.
+  </li>
+  <br>
+  <li>Side Effects<br>
+  Very common:
+Headache,
+Joint aches,
+Muscle aches,
+Pain at the injection site,
+Tiredness,
+Chills,
+Fever,
+Swelling at the injection site,
+Other less common side effects are also possible.
+
+Side effects can be more common after the second dose.
+  </li>
+  </ul></h3>
+<center><img src="MODERNA.jpg"><center>
+</div>
+
+<div id="SINOVAC" class="tabcontent">
+  <h1>SINOVAC</h1>
+  <h3 align="left">
+  <ul>
+  <li>Safety<br>
+The CoronaVac vaccine has been listed for emergency use by the WHO and is safe and effective based on data from large-scale clinical trials.
+  </li>
+  <br>
+  <li>Effectiveness<br>
+Based on information provided by the manufacturer, the CoronaVac vaccine has shown to be 51% effective against symptomatic infection. It was also shown to be 100% effective against hospitalization and severe disease.
+
+A widely used COVID-19 vaccine that's at least 50% effective will help control the pandemic.
+  </li>
+  <br>
+  <li>Side Effects<br>
+Most common:
+Pain at the injection site,
+Headache,
+Tiredness,
+Muscle aches,
+Other, less common side effects are also possible.
+  </li>
+  </ul></h3>
+<center><img src="SINOVAC.jpg"><center>
+</div>
+
+<div id="ASTRAZENECA" class="tabcontent">
+  <h1>ASTRAZENECA</h1>
+  <h3 align="left">
+  <ul>
+  <li>Safety<br>
+The Astrazeneca-Oxford vaccine has been listed for emergency use by the WHO and is safe and effective based on data from large-scale clinical trials.
+  </li>
+  <br>
+  <li>Effectiveness<br>
+Based on data provided by the manufacturer, the Astrazeneca-Oxford vaccine, or AZD1222, has shown to be 63% effective in an ongoing, large-scale clinical trial.
+
+A widely used COVID-19 vaccine that's at least 50% effective could help control the pandemic.
+  </li>
+  <br>
+  <li>Side Effects<br>
+After vaccination, you may have more than one side effect at the same time (for example, muscle/joint aches, headaches, chills and generally feeling unwell). If any of your symptoms are persistent, please seek advice from your healthcare provider.
+  </li>
+  </ul></h3>
+<center><img src="ASTRAZENECA.jpg"><center>
+</div>
+
+<div id="JANSSEN" class="tabcontent">
+<h1>JANSSEN</h1>
+  <h3 align="left">
+  <ul>
+  <li>Safety<br>
+The Janssen (Johnson & Johnson) vaccine has been listed for emergency use by the WHO and is safe and effective based on data from large-scale clinical trials.
+  </li>
+  <br>
+  <li>Effectiveness<br>
+Based on information provided by the manufacturer, the Johnson & Johnson vaccine, or Ad26.COV2.S, has shown to be 66.9% effective in an ongoing, large-scale clinical trial.
+
+A widely used COVID-19 vaccine that's at least 50% effective will help control the pandemic.
+  </li>
+  <br>
+  <li>Side Effects<br>
+Most common:
+Pain or tenderness at the injection site,
+Redness,
+Swelling,
+Fever,
+Other, less common side effects are also possible.
+  </li>
+  </ul></h3>
+<center><img src="JANSSEN.jpg"><center>
+</div>
+
+</center>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+   
+</body>
+</html> 
